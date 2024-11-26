@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "246096634505",
+    "project_id": "remakehealtylife",
+    "storage_bucket": "remakehealtylife.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246096634505:android:14700df9d09a29a1f7dc58",
+        "android_client_info": {
+          "package_name": "com.tattadv.remakehealtylife"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLtE2TIAAyXU5TXmpIRE_8d4QsZBAouRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
