@@ -26,5 +26,7 @@
     <string name="register_title">Register</string>
     <string name="punya_akun">Udah punya akun ? Sign in</string>
     <string name="logout">Logout</string>
+    <string name="settings">Settings</string>
+    <string name="dark_mode">Dark Mode</string>
     <string name="searchbar_hint">Masukkan kata</string>
 </resources>

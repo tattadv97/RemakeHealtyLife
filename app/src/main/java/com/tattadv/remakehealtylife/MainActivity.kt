@@ -1,16 +1,21 @@
 package com.tattadv.remakehealtylife
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.CompoundButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.switchmaterial.SwitchMaterial
 import com.google.firebase.auth.FirebaseAuth
 import com.tattadv.remakehealtylife.adapter.ListHealtyAdapter
 import com.tattadv.remakehealtylife.login.Firebase
@@ -23,6 +28,7 @@ class MainActivity : AppCompatActivity() {
     private val list = ArrayList<Healty>()
     //private lateinit var firebaseAuth: FirebaseAuth
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -74,6 +80,9 @@ class MainActivity : AppCompatActivity() {
             FirebaseAuth.getInstance().signOut()
             startActivity(Intent(this, SignInActivity::class.java))
             finish()
+            return true
+        } else if (item.itemId == R.id.action_settings){
+            startActivity(Intent(this, SettingsActivity::class.java))
             return true
         } else {
             return super.onOptionsItemSelected(item)
