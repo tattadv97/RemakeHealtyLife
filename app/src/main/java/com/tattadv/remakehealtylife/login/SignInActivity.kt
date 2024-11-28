@@ -33,6 +33,11 @@ class SignInActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.tvLupaPassword.setOnClickListener {
+            val intent = Intent(this@SignInActivity, ForgotPasswordActivity::class.java)
+            startActivity(intent)
+        }
+
         binding.btnLogin.setOnClickListener {
             val email = binding.edtEmail.text.toString()
             val password = binding.edtPassword.text.toString()

@@ -9,9 +9,9 @@
               <option name="connection">
                 <ConnectionSetting>
                   <option name="appId" value="com.tattadv.remakehealtylife" />
-                  <option name="mobileSdkAppId" value="1:246096634505:android:14700df9d09a29a1f7dc58" />
-                  <option name="projectId" value="remakehealtylife" />
-                  <option name="projectNumber" value="246096634505" />
+                  <option name="mobileSdkAppId" value="1:755892005371:android:c4cd7287e061e4bd70035e" />
+                  <option name="projectId" value="remake-healty-life" />
+                  <option name="projectNumber" value="755892005371" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
