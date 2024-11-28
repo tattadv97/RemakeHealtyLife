@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
     //lazy initialization buat view binding
     private val rvFruits by lazy { findViewById<RecyclerView>(R.id.rv_fruits) }
     private val list = ArrayList<Healty>()
+    //private lateinit var firebaseAuth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
