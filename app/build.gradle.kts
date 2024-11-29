@@ -66,6 +66,8 @@ dependencies {
     implementation(libs.material)
     implementation(libs.firebase.auth.ktx)
 
+    implementation(libs.material.v1110alpha02)
+
     //Preferences DataStore
     implementation(libs.androidx.datastore.preferences)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)

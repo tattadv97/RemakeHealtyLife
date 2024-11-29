@@ -11,12 +11,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/icon_asset_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Design.NoActionBar"
+        android:theme="@style/Theme.RemakeHealtyLife"
         tools:targetApi="31">
         <activity
             android:name=".SettingsActivity"
             android:exported="false"
-            android:theme="@style/Base.Theme.RemakeHealtyLife"/>
+            android:theme="@style/Theme.RemakeHealtyLife"/>
         <activity
             android:name=".login.ForgotPasswordActivity"
             android:exported="true"
@@ -31,7 +31,8 @@
             android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
         <activity
             android:name=".SplashScreenActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -41,7 +42,7 @@
         <activity
             android:name=".AboutMeActivity"
             android:exported="false"
-            android:theme="@style/Base.Theme.RemakeHealtyLife" />
+            android:theme="@style/Theme.RemakeHealtyLife" />
         <activity
             android:name=".DetailActivity"
             android:exported="false"

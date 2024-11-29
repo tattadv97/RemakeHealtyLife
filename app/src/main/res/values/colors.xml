@@ -6,4 +6,15 @@
     <color name="color_primary">#6200EE</color>
     <color name="color_control_activated">#6200EE</color>
     <color name="color_red">#ff6161</color>
+    <color name="light_color_primary">#6200EE</color>
+    <color name="light_color_primary_variant">#3700B3</color>
+    <color name="dark_color_primary">#BB86FC</color>
+    <color name="dark_color_primary_variant">#3700B3</color>
+    <color name="primary">#6200EE</color>
+    <color name="secondary">#03DAC5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="background">#F5F5F5</color>
+    <color name="surface_night">#121212</color>
+    <color name="background_night">#000000</color>
+
 </resources>

@@ -10,6 +10,7 @@ appcompat = "1.7.0"
 material = "1.12.0"
 activity = "1.9.3"
 constraintlayout = "2.2.0"
+materialVersion = "1.12.0"
 playServicesAuth = "21.2.0"
 recyclerview = "1.3.2"
 cardview = "1.0.0"
@@ -48,6 +49,7 @@ androidx-privacysandbox-tools = { group = "androidx.privacysandbox.tools", name 
 androidx-test-runner = { group = "androidx.test", name = "runner", version.ref = "test-runner" }
 androidx-test-espresso = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "test-espresso" }
 firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+material-v1110alpha02 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
 play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
 firebase-auth-ktx = { group = "com.google.firebase", name = "firebase-auth-ktx", version.ref = "firebaseAuthKtx" }
 androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastorePreferences" }

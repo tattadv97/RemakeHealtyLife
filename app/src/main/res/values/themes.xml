@@ -1,11 +1,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.RemakeHealtyLife" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Theme.RemakeHealtyLife" parent="Theme.Material3.DayNight">
+        <!-- Light theme colors -->
+        <item name="colorPrimary">@color/light_color_primary</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="background">@color/white</item>
+        <item name="colorOnBackground">@color/black</item>
     </style>
 
-    <style name="Theme.RemakeHealtyLife" parent="Base.Theme.RemakeHealtyLife" />
-
-    <style name="Theme.Design.NoActionBar." parent="Theme.AppCompat.Light.NoActionBar" />
+    <!-- Splash Screen Theme -->
+    <style name="Theme.SplashScreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Fullscreen mode -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
 </resources>
